@@ -7,7 +7,7 @@ bp = Blueprint('actions', __name__, url_prefix='/actions')
 def resize():
     pass
 
-@bp.route('/presets/<preset', methods=['POST'])
+@bp.route('/presets/<preset>', methods=['POST'])
 def resize_presets(preset):
     pass
 
